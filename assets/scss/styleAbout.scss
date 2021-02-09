@@ -1,0 +1,156 @@
+@import "style";
+body {
+    background: url(../img/about_us/bgAbout.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    .whoAreWe {
+        .h2_titleAbout {
+            margin: 30px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        table {
+            color: #FFFFFF;
+            tr {
+                td {
+                    border-radius: 50px;
+                    padding: 15px 15px 15px 15px;
+                    color: #000000;
+                }
+                .bgBread {
+                    background-color: #d99e82;
+                }
+                .bgMeat {
+                    background-color: #662113;
+                }
+                .bgCheese {
+                    background-color: #ffcc4d;
+                }
+                .bgSalad {
+                    background-color: #77b255;
+                }
+                .bgKetchup {
+                    background-color: #dd2e44;
+                }
+            }
+        }
+    }
+    .whereAreWe {
+        .h2_titleAbout {
+            margin: 30px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        table {
+            color: #FFFFFF;
+            .colorHover {
+                .imgMap {
+                    margin: 10px;
+                    .map-responsive {
+                        overflow: hidden;
+                        padding-bottom: 56.25%;
+                        position: relative;
+                        text-align: right;
+                        background: none!important;
+                        height: 0;
+                        iframe {
+                            left: 0;
+                            top: 0;
+                            height: 100%;
+                            width: 100%;
+                            position: absolute;
+                        }
+                    }
+                }
+                &:hover {
+                    background-color: #c72838cb;
+                    color: white;
+                    font-weight: 800;
+                    border: 1px solid black;
+                    border-radius: 30px;
+                }
+            }
+        }
+    }
+    .whatWeDo {
+        .h2_titleAbout {
+            margin: 30px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        table {
+            tr {
+                .bgBread {
+                    background-color: #d99e82;
+                    top: -112px;
+                    z-index: 1;
+                }
+                .bgMeat {
+                    background-color: #662113;
+                    z-index: 2;
+                }
+                .bgCheese {
+                    background-color: #ffcc4d;
+                    z-index: 3;
+                }
+                .bgSalad {
+                    background-color: #77b255;
+                    z-index: 0;
+                }
+                td {
+                    overflow: hidden;
+                    border-radius: 50px;
+                    padding: 15px 15px 15px 15px;
+                    transition: all ease-in-out 0.3s;
+                    .h3_titleAbout {
+                        text-transform: uppercase;
+                        color: #000000;
+                        vertical-align: middle;
+                        text-align: center;
+                        opacity: 1;
+                    }
+                    .imgWhatWeDo {
+                        max-width: 160px;
+                        float: left;
+                    }
+                    p {
+                        opacity: 0;
+                    }
+                    &:hover {
+                        transform: scale(1.2);
+                        z-index: 3;
+                        box-shadow: 0px 0px 40px black;
+                        p {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// pour les plus petits formats, affichage direct des bulles des engagements
+@media only screen and (max-width: 768px) {
+    main {
+        .whatWeDo {
+            table {
+                tr {
+                    td {
+                        flex-direction: column;
+                        p {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+header nav a img {
+  width: 90px;
+}
+header nav button .navbar-toggler-icon {
+  background-image: url("/assets/img/list.svg");
+  width: 50px;
+  height: 50px;
+}
+header nav div ul li {
+  font-size: 2rem;
+  margin: 0 1rem;
+  font-family: Caveat;
+}
+
+footer section .footerName {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+footer section .footerName li a {
+  font-family: Caveat;
+  color: white;
+}
+footer section .footerTitle {
+  color: #16a086;
+}
+footer section div nav {
+  font-family: Caveat;
+  font-size: 1.6rem;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+body main {
+  min-height: 85vh;
+}
+
+body {
+  background: url(../img/about_us/bgAbout.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main .whoAreWe .h2_titleAbout {
+  margin: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+main .whoAreWe table {
+  color: #FFFFFF;
+}
+main .whoAreWe table tr td {
+  border-radius: 50px;
+  padding: 15px 15px 15px 15px;
+  color: #000000;
+}
+main .whoAreWe table tr .bgBread {
+  background-color: #d99e82;
+}
+main .whoAreWe table tr .bgMeat {
+  background-color: #662113;
+}
+main .whoAreWe table tr .bgCheese {
+  background-color: #ffcc4d;
+}
+main .whoAreWe table tr .bgSalad {
+  background-color: #77b255;
+}
+main .whoAreWe table tr .bgKetchup {
+  background-color: #dd2e44;
+}
+main .whereAreWe .h2_titleAbout {
+  margin: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+main .whereAreWe table {
+  color: #FFFFFF;
+}
+main .whereAreWe table .colorHover .imgMap {
+  margin: 10px;
+}
+main .whereAreWe table .colorHover .imgMap .map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  text-align: right;
+  background: none !important;
+  height: 0;
+}
+main .whereAreWe table .colorHover .imgMap .map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+main .whereAreWe table .colorHover:hover {
+  background-color: #c72838cb;
+  color: white;
+  font-weight: 800;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+main .whatWeDo .h2_titleAbout {
+  margin: 30px;
+  text-transform: capitalize;
+  text-align: center;
+}
+main .whatWeDo table tr .bgBread {
+  background-color: #d99e82;
+  top: -112px;
+  z-index: 1;
+}
+main .whatWeDo table tr .bgMeat {
+  background-color: #662113;
+  z-index: 2;
+}
+main .whatWeDo table tr .bgCheese {
+  background-color: #ffcc4d;
+  z-index: 3;
+}
+main .whatWeDo table tr .bgSalad {
+  background-color: #77b255;
+  z-index: 0;
+}
+main .whatWeDo table tr td {
+  overflow: hidden;
+  border-radius: 50px;
+  padding: 15px 15px 15px 15px;
+  transition: all ease-in-out 0.3s;
+}
+main .whatWeDo table tr td .h3_titleAbout {
+  text-transform: uppercase;
+  color: #000000;
+  vertical-align: middle;
+  text-align: center;
+  opacity: 1;
+}
+main .whatWeDo table tr td .imgWhatWeDo {
+  max-width: 160px;
+  float: left;
+}
+main .whatWeDo table tr td p {
+  opacity: 0;
+}
+main .whatWeDo table tr td:hover {
+  transform: scale(1.2);
+  z-index: 3;
+  box-shadow: 0px 0px 40px black;
+}
+main .whatWeDo table tr td:hover p {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  main .whatWeDo table tr td {
+    flex-direction: column;
+  }
+  main .whatWeDo table tr td p {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=styleAbout.css.map */

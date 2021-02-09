@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+header nav a img {
+  width: 90px;
+}
+header nav button .navbar-toggler-icon {
+  background-image: url("/assets/img/list.svg");
+  width: 50px;
+  height: 50px;
+}
+header nav div ul li {
+  font-size: 2rem;
+  margin: 0 1rem;
+  font-family: Caveat;
+}
+
+footer section .footerName {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+footer section .footerName li a {
+  font-family: Caveat;
+  color: white;
+}
+footer section .footerTitle {
+  color: #16a086;
+}
+footer section div nav {
+  font-family: Caveat;
+  font-size: 1.6rem;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+body main {
+  min-height: 85vh;
+}
+
+body {
+  background-image: url("https://nsa40.casimages.com/img/2021/01/27/210127050039314902.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body main {
+  font-family: Caveat;
+}
+body main li {
+  list-style: none;
+}
+body main .titre {
+  color: white;
+  padding-left: 10rem;
+  text-decoration: underline;
+  margin-top: 2rem;
+}
+body main .hamb {
+  background-color: white;
+  border: solid 3px #e40000;
+  border-radius: 15px;
+}
+body main .menu img {
+  float: left;
+  margin-left: 1rem;
+}
+body main .menu .prix {
+  margin-left: 15rem;
+}
+body main .menu h5 {
+  padding-left: 5rem;
+}
+body main .accompagnement {
+  display: flex;
+  color: white;
+  font-style: oblique;
+  margin-left: 8rem;
+  font-size: 20px;
+}
+body main .boissons {
+  margin-bottom: 3rem;
+}/*# sourceMappingURL=menu.css.map */

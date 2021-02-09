@@ -1,0 +1,11 @@
+@import "variable";
+@import "header";
+@import "footer";
+
+
+body {
+    font-family:Montserrat , sans-serif;
+    main {
+        min-height: 85vh;
+    }
+}

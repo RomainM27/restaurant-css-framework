@@ -1,0 +1,20 @@
+@import "style";
+
+// configuration jumbotron en full img home (start)
+.jumbotron{
+    border-radius: 0px;
+}
+.jumbotron h1{
+  font-family: Caveat;
+  font-size: 3rem;
+}
+
+.fond{
+    background-image: url("https://nsa40.casimages.com/img/2021/01/26/210126021721231741.jpg");
+    height: 40rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+// configuration jumbotron en full img home (end)

@@ -1,0 +1,44 @@
+@import "style";
+
+main {  
+    background-image: url("../img/img_contact/background-truck.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top 0, left 0 ;
+    background-repeat: no-repeat;
+    #formSection {
+        
+        margin:auto;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        max-width: 600px !important;
+        border-radius: 15px 15px 0 0;
+        .title {
+        background-color: #c72838cb;
+        color: white;
+        border-radius: 15px 15px 0 0;
+        font-family: Caveat;
+        font-size: 3rem;
+        }
+        #formsContact{
+            form {
+                div {
+                    div {
+                        img {
+                            width: 25px;
+                        }
+                    }
+                }
+                button {
+                    background-color: #c72838e9;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 650px) {
+    #formSection{
+        margin: 2rem 1rem 2rem auto !important;
+    }
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27");
+header nav a img {
+  width: 90px;
+}
+header nav button .navbar-toggler-icon {
+  background-image: url("/assets/img/list.svg");
+  width: 50px;
+  height: 50px;
+}
+header nav div ul li {
+  font-size: 2rem;
+  margin: 0 1rem;
+  font-family: Caveat;
+}
+
+footer section .footerName {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+footer section .footerName li a {
+  font-family: Caveat;
+  color: white;
+}
+footer section .footerTitle {
+  color: #16a086;
+}
+footer section div nav {
+  font-family: Caveat;
+  font-size: 1.6rem;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+body main {
+  min-height: 85vh;
+}
+
+main {
+  background-image: url("../img/img_contact/background-truck.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top 0, left 0;
+  background-repeat: no-repeat;
+}
+main #formSection {
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  max-width: 600px !important;
+  border-radius: 15px 15px 0 0;
+}
+main #formSection .title {
+  background-color: #c72838cb;
+  color: white;
+  border-radius: 15px 15px 0 0;
+  font-family: Caveat;
+  font-size: 3rem;
+}
+main #formSection #formsContact form div div img {
+  width: 25px;
+}
+main #formSection #formsContact form button {
+  background-color: #c72838e9;
+  color: white;
+}
+
+@media (min-width: 650px) {
+  #formSection {
+    margin: 2rem 1rem 2rem auto !important;
+  }
+}/*# sourceMappingURL=contact.css.map */

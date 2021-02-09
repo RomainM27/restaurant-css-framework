@@ -1,0 +1,28 @@
+@import "variable";
+header {
+    nav {
+        a {
+            img{
+                width:90px;
+
+            }
+        }
+        button {
+            .navbar-toggler-icon{
+                background-image: url('/assets/img/list.svg');
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        div {
+            ul {
+                li{
+                    font-size: 2rem;
+                    margin: 0 1rem;
+                    font-family: Caveat;
+                }
+            }
+        }
+    }
+}

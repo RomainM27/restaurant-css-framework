@@ -1,0 +1,81 @@
+@import "style";
+
+.modal:target {
+    display: table;
+    position: absolute;
+}
+
+main {
+    h1{
+        margin:30px;
+    }
+    .galleryTitle{
+        padding:0px;
+        text-align:center;
+        font-family: Montserrat;
+        background-image: none;
+    }
+    section {
+        background-image: url("../img/WOODSBURGER_LOGO_V3.svg");
+        background-repeat:no-repeat;
+        background-position: center;
+        width:100%;
+        color:#212529;
+        margin-top:5%;
+        margin:auto;
+        padding:5%;
+        max-width: 1000px;
+        div {
+            div {
+                p{
+                    a {
+                        img {
+                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+                            border:10px solid #ffffff;
+                            border-radius:3px;
+                        }
+                    }
+                }
+                .legend {
+                    font-family: Caveat;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }      
+    #bigZoomImage{
+        display:none;
+        background-image: none;
+        background-color: #ffffff;
+        div {                
+            div {
+                background-color: #ffffff;
+                #modalLegend{
+                    font-family: Caveat;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    border:5px solid #ffffff;
+                    padding:5px;
+                }
+            }
+        }
+        div {
+            div {
+                img{
+                    color:#212529;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+                    border:10px solid #ffffff;
+                    border-radius:3px;
+                }
+            }
+        }
+    }
+    #modalImage{
+        color:#212529;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+        border-top:0.8rem solid #ffffff;
+        border-bottom:0.8rem solid #ffffff;
+        border-radius:3px;
+    }
+}
